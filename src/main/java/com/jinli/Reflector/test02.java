@@ -30,10 +30,10 @@ class User{
     public User() {
     }
 
-    public User(int id, int age, String name) {
+    public User(String name,int id, int age) {
+        this.name = name;
         this.id = id;
         this.age = age;
-        this.name = name;
     }
 
     public int getId() {
