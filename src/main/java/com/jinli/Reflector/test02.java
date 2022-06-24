@@ -60,6 +60,10 @@ class User{
         this.name = name;
     }
 
+    private void test(){
+        System.out.println("测试");
+    }
+
     @Override
     public String toString() {
         return "User{" +
